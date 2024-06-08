@@ -15,7 +15,7 @@ const SimpleInput = ({
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className={`w-[286px] h-[52px] border-l border-r border-gray-700 focus:outline-none ${className}`}
+      className={`w-[100%] h-[52px] border-l border-r border-gray-700 focus:outline-none ${className}`}
       {...props}
     />
   );

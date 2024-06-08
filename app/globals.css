@@ -1,12 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body {
-    font-family: 'Anybody', sans-serif;
+.anybody {
+    font-family: 'Anibody', sans-serif;
   }
 
 .main-title{
@@ -44,3 +42,22 @@ body {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
+.tag-button{
+    width: auto;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: -2px 2px 0px 0px #000000;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+   
+}
+
+
+
