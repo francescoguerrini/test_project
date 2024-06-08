@@ -27,6 +27,9 @@ const Navbar = () => {
           <FiSearch />
         </div>
       </div>
+      <div className="hidden lg:flex lg:h-[80px] lg:border-t lg:border-black">
+        <div className="flex"></div>
+      </div>
       <div>
         <Temi />
       </div>

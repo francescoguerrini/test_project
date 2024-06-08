@@ -5,7 +5,7 @@ import SupportBanner from "../article_cmp/SupportBanner";
 const Section1 = () => {
   return (
     <section id="1">
-      <div className="h-[320px]">
+      <div className="h-[320px] lg:h-[506px]">
         <MainArticle article={1} />
       </div>
       <div>

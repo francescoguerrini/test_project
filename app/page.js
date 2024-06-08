@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="lg:w-[1440px] mx-auto">
       <div className="">
         <Navbar />
       </div>
