@@ -1,4 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+body {
+    font-family: 'Anybody', sans-serif;
+  }
+
+.main-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    color: #010101;
+}
+
+.argument-text{
+    font-family: 'Raleway', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.74px;
+}
+.argument-button{
+    width: 83px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    box-shadow: -2px 2px 0px 0px #000000;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
