@@ -13,6 +13,7 @@ const getArticleDetails = (id) => {
     details.date = article.article_date;
     details.file = article.file;
     details.url = article.media;
+    details.bgimage = article.bgimage;
     if (author) {
       details.authorName = author.name;
       details.profileImage = author.image;

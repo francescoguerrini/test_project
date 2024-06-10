@@ -30,6 +30,7 @@ const articles = [
     article_date: "14 Luglio 2022",
     file: "video",
     media: "/articles/article2.png",
+    bgimage: "/articles/article2.png",
   },
   {
     id: 3,
@@ -40,6 +41,7 @@ const articles = [
     article_date: "14 Luglio 2022",
     file: "audio",
     media: "/utils/audiowave.jpg",
+    bgimage: "/articles/article3.jpeg",
   },
   {
     id: 4,
@@ -48,6 +50,7 @@ const articles = [
     author_id: "4",
     article_date: "14 Luglio 2022",
     file: false,
+    bgimage: "/articles/article4.png",
   },
   {
     id: 5,
@@ -56,6 +59,7 @@ const articles = [
     author_id: "5",
     article_date: "13 Luglio 2022",
     file: false,
+    bgimage: "",
   },
   {
     id: 6,
@@ -65,6 +69,7 @@ const articles = [
     author_id: "6",
     article_date: "13 Luglio 2022",
     file: false,
+    bgimage: "/articles/article6.jpeg",
   },
   {
     id: 7,
@@ -74,6 +79,7 @@ const articles = [
     author_id: "7",
     article_date: "12 Luglio 2022",
     file: false,
+    bgimage: "/articles/article7.jpeg",
   },
   {
     id: 8,
@@ -83,6 +89,7 @@ const articles = [
     article_date: "7 Luglio 2022",
     file: "audio",
     media: "/utils/audiowave2.jpg",
+    bgimage: "/articles/article8.jpeg",
   },
   {
     id: 9,
@@ -91,6 +98,7 @@ const articles = [
     author_id: "4",
     article_date: "7 Luglio 2022",
     file: false,
+    bgimage: "/articles/article9.jpeg",
   },
   {
     id: 10,
